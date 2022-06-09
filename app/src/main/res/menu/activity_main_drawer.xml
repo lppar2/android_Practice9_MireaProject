@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_brouser"
+            android:icon="@drawable/ic_menu_browser_foreground"
+            android:title="Brouser"/>
+        <item
+            android:id="@+id/player"
+            android:icon="@drawable/ic_player_foreground"
+            android:title="Player"
+            ></item>
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_camera_foreground"
+            android:title="Camera"/>
+        <item
+            android:id="@+id/sensorsFragment"
+            android:icon="@drawable/ic_sensors_foreground"
+            android:title="Sensors"/>
+        <item
+            android:id="@+id/recordFragment"
+            android:icon="@drawable/ic_mic_foreground"
+            android:title="Record"/>
+        <item
+            android:id="@+id/storyFragment"
+            android:icon="@drawable/ic_base_foreground"
+            android:title="Story"/>
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_base_foreground"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/infoFragment"
+            android:icon="@drawable/ic_base_foreground"
+            android:title="Info"/>
+        <item
+            android:id="@+id/authentication"
+            android:icon="@drawable/ic_base_foreground"
+            android:title="Authentication"/>
+        <item
+            android:id="@+id/kittensFragment"
+            android:icon="@drawable/ic_base_foreground"
+            android:title="Kittens"/>
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@drawable/ic_base_foreground"
+            android:title="Maps"/>
+    </group>
+</menu>
